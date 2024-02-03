@@ -1,0 +1,785 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* header*/
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+.header .header-content {
+  width: 75%;
+  height: 100%;
+  /* background-color: blue; */
+  margin: auto;
+}
+.header-content .co-log {
+  width: 20%;
+  height: 100%;
+  /* background-color: aqua; */
+  float: left;
+}
+.header-content .co-log img {
+  height: 75%;
+  margin-top: 20px;
+}
+.header-content .ads-log {
+  width: 80%;
+  height: 100%;
+  /* background-color: bisque; */
+  float: left;
+}
+.ads-log img {
+  height: 50%;
+  margin-top: 20px;
+  margin-left: 223px;
+}
+
+/* menu ... */
+
+.menu-full {
+  width: 100%;
+  height: 49px;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: red;
+}
+.menu {
+  width: 75%;
+  height: 100%;
+  overflow: hidden;
+  /* background-color: blue; */
+  margin: auto;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a {
+  display: block;
+  padding: 6px 10px;
+  color: white;
+  opacity: 0.8;
+  font-size: 20px;
+  font-family: "Koulen";
+  text-decoration: none;
+  /* top: 0; */
+}
+.menu ul li a:hover {
+  opacity: 1;
+}
+
+/*.... body-full ...*/
+.body-full {
+  width: 75%;
+  height: 400px;
+  /* background-color: antiquewhite; */
+  box-shadow: 2px 2px 2px 2px gray;
+  margin: auto;
+  margin-top: 20px;
+}
+.body-full .box1 {
+  width: 60%;
+  height: 100%;
+  margin-right: 2%;
+  overflow: hidden;
+  background-color: red;
+  float: left;
+}
+.box1 .box-a {
+  width: 60%;
+  height: 50%;
+  float: left;
+  background-color: rgb(90, 54, 0);
+}
+.box-a {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  overflow: hidden;
+}
+.box-a .sub-a {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 20px;
+  font-family: "Battambang";
+  background-color: rgb(38, 0, 255);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.box-a .sub-a h1 {
+  font-size: 19px;
+  transform: translateX(-10px);
+}
+.box-a h3 {
+  color: white;
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "Battambang";
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.655);
+  transform: translatey(60px);
+  transition: 0.4s;
+  line-height: 20px;
+}
+.box-a:hover h3 {
+  transform: translatey(-20px);
+  color: red;
+  text-shadow: 3px 3px 3px 3px black;
+}
+.box-a h3 span {
+  font-size: 10px;
+  display: none;
+}
+.box-a:hover h3 span {
+  display: block;
+}
+
+.box1 .box-b {
+  width: 40%;
+  height: 50%;
+  float: left;
+  /* background-color: rgb(255, 153, 1); */
+}
+.box-b {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  overflow: hidden;
+}
+.box-b .sub-b {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 20px;
+  font-family: "Battambang";
+  background-color: rgb(38, 0, 255);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.box-b .sub-b h1 {
+  font-size: 19px;
+  transform: translateX(-10px);
+}
+.box-b h3 {
+  color: white;
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "Battambang";
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.655);
+  transform: translatey(30px);
+  transition: 0.4s;
+  line-height: 20px;
+}
+.box-b:hover h3 {
+  transform: translatey(-30px);
+  color: red;
+  text-shadow: 3px 3px 3px 3px black;
+}
+.box-b h3 span {
+  font-size: 14px;
+  display: none;
+}
+.box-b:hover h3 span {
+  display: block;
+}
+
+.body-full .box2 {
+  width: 35%;
+  height: 100%;
+  /* background-color: blueviolet; */
+  float: left;
+}
+.box2 .box2-g {
+  width: 100%;
+  height: 45%;
+  margin-bottom: 12px;
+  margin-top: 0px;
+  /* background-color: blue; */
+}
+.box2-g img {
+  height: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+/* ...information ...*/
+
+.information {
+  width: 75%;
+  height: 50px;
+  /* background-color: red; */
+  margin: auto;
+  margin-top: 20px;
+  overflow: hidden;
+  /* justify-content: center;
+  align-items: center;
+  display: flex; */
+  border-bottom: 4px solid red;
+}
+.information .box-head {
+  width: 140px;
+  height: 100%;
+  margin-top: 10px;
+  background-color: rgb(255, 0, 0);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 98%, 75% 0);
+}
+.box-head p {
+  color: white;
+  font-family: "Koulen";
+  margin-top: 10px;
+  font-size: 25px;
+  /* margin-right: 20px; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  float: left;
+  margin-left: 30px;
+}
+.body-box {
+  width: 75%;
+  height: 700px;
+  /* background-color: rebeccapurple; */
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  overflow: hidden;
+
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 1px 4px 4px 2px rgb(159, 152, 152);
+}
+.body-box .body-on {
+  width: 100%;
+  height: 40%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+}
+.body-on .body-on-a {
+  width: 33%;
+  height: 100%;
+  /* background-color: yellow; */
+}
+.body-on-a .body-pic {
+  width: 100%;
+  height: 60%;
+  /* background-color: rgb(0, 0, 73); */
+}
+.body-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.body-on-a .body-dic {
+  width: 100%;
+  height: 35%;
+  /* background-color: rgb(13, 201, 0); */
+}
+.body-dic h3 {
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: "Battambang";
+}
+
+.body-box .body-un {
+  width: 100%;
+  height: 59%;
+  margin-top: 10px;
+  /* background-color: rgb(255, 0, 0); */
+}
+.body-un .body-un-1 {
+  width: 70%;
+  height: 100%;
+  float: left;
+  /* background-color: blue; */
+}
+.body-un-1 .box-a1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  /* overflow: hidden; */
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: chocolate; */
+}
+.box-a1 .box-a-b {
+  width: 24%;
+  height: 100%;
+  /* background-color: aqua; */
+}
+.box-a-b .PI-pic {
+  width: 100%;
+  height: 60%;
+}
+.PI-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box-a-b .DIC-dic p {
+  color: black;
+  font-size: 10px;
+  font-family: "Battambang";
+  margin-left: 1px;
+  margin-top: 0px;
+  line-height: 20px;
+}
+
+.body-un .body-un-2 {
+  width: 28%;
+  height: 100%;
+  margin-left: 14px;
+  float: left;
+  /* background-color: rgb(32, 237, 0); */
+}
+.body-un-2 {
+  width: 100%;
+}
+.body-un-2 img {
+  width: 100%;
+  margin-top: 50px;
+  /* height: 100%; */
+  object-fit: cover;
+}
+
+/* information-countinous  */
+
+.countinous {
+  width: 75%;
+  height: 60px;
+  /* background-color: red; */
+  margin: auto;
+  margin-top: 40px;
+  border-bottom: 3px solid red;
+}
+.countinous .continous1 {
+  width: 15%;
+  height: 100%;
+  color: white;
+  justify-content: center;
+  /* font-size: 15px;
+  font-family: "Kounlen"; */
+  align-items: center;
+  display: flex;
+  background-color: rgb(198, 0, 188);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 98%, 75% 0);
+}
+.continous1 p {
+  font-size: 25px;
+  font-family: "Koulen";
+  margin-right: 10px;
+  margin-top: 25px;
+}
+.A-a {
+  width: 75%;
+  height: 500px;
+  /* background-color: blue; */
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 1px 1px rgb(169, 160, 160);
+}
+.A-a .b-b {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+.b-b .b-1 {
+  height: 100%;
+  width: 35%;
+  float: left;
+  /* background-color: black; */
+}
+.b-1 .b-pic1 {
+  width: 100%;
+  height: 60%;
+  margin-top: 0px;
+}
+.b-pic1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.b-dic1 h3 {
+  width: 100%;
+  height: 40%;
+
+  /* margin-top: 2px; */
+  color: rgb(255, 253, 253);
+  font-family: "Battambang";
+  margin-left: 10px;
+  font-size: 24px;
+  line-height: 42px;
+  margin-top: 2px;
+}
+.b-dic1 {
+  height: 40%;
+}
+
+.b-b .b-2 {
+  height: 100%;
+  width: 64%;
+  float: left;
+  margin-left: 1%;
+  /* background-color: rgb(198, 172, 0); */
+}
+.b-2 .b-khin {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: greenyellow; */
+}
+.b-khin .b-box1 {
+  width: 24%;
+  height: 100%;
+  /* float: left; */
+  /* background-color: rgb(0, 0, 100); */
+}
+.b-box1 .khin-pic {
+  width: 100%;
+  height: 60%;
+}
+.khin-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.b-box1 .khin-dic {
+  width: 100%;
+  height: 40%;
+  color: rgb(0, 0, 0);
+  margin-left: 5px;
+}
+.khin-dic p {
+  font-family: "Battambang";
+  margin-top: 0px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* ...footer... */
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 30px;
+}
+.footer .body-footer {
+  width: 75%;
+  height: 100%;
+  /* background-color: rgb(255, 247, 0); */
+  margin: auto;
+}
+.body-footer .footer1 {
+  width: 30%;
+  height: 100%;
+  float: left;
+  /* background-color: blue; */
+}
+.footer1 img {
+  margin-top: 20px;
+  width: 45%;
+  margin-left: 10px;
+  /* height: 30px; */
+}
+.footer1 p {
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  font-size: 11px;
+  opacity: 0.8;
+  font-family: "Battambang";
+}
+.footer1 h3 {
+  color: white;
+  font-family: "Battambang";
+  font-size: 12px;
+  margin-left: 10px;
+}
+.footer1 h2 {
+  color: white;
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "Battambang";
+}
+.footer1 p {
+  line-height: 20px;
+}
+
+.body-footer .footer2 {
+  width: 45%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  /* background-color: rgb(239, 0, 0); */
+}
+.footer2 p {
+  color: white;
+  font-family: "Koulen";
+  margin-top: 40px;
+  font-size: 20px;
+  margin-left: 10px;
+  opacity: 0.8;
+}
+.footer2 small {
+  color: white;
+  font-family: "Battambang";
+  margin-left: 10px;
+  margin-bottom: 20px;
+  opacity: 0.7;
+  font-size: 13px;
+}
+.footer2 h6 {
+  color: white;
+  font-size: 14px;
+  line-height: 15px;
+  opacity: 0.9;
+  font-family: "Battambang";
+  margin-left: 10px;
+}
+.footer small,
+h6 {
+  line-height: 20px;
+}
+
+.footer2 .footer-box {
+  width: 98%;
+  height: 25px;
+  float: left;
+  /* background-color: black; */
+  display: flex;
+  float: left;
+  margin-top: 10px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.footer-box .pic-pic-box {
+  width: 45px;
+  height: 100%;
+}
+.footer-box .pic-pic-box img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  border-radius: 60px;
+}
+
+.footer .body-footer .footer3 {
+  width: 25%;
+  height: 100%;
+  float: left;
+  /* background-color: rgb(152, 228, 0); */
+}
+.body-footer .footer3 .small {
+  color: white;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: "Koulen";
+  margin-left: 10px;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+.footer3 .small-box {
+  width: 97%;
+  height: 40px;
+  /* background-color: red; */
+}
+
+.small-box ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.small-box ul li {
+  float: left;
+}
+.small-box ul li a {
+  display: block;
+  padding: 0px 7px;
+  color: white;
+  font-size: 22px;
+  opacity: 0.6;
+  font-family: "Koulen";
+  text-decoration: none;
+  /* top: 0; */
+}
+
+.small-box ul li a:hover {
+  opacity: 1;
+}
+.footer3 h4 {
+  color: aliceblue;
+  font-family: "Battambang";
+  margin-left: 10px;
+  font-size: 15px;
+  /* margin-top: 49px; */
+}
+.footer3 p {
+  margin-left: 2px;
+  margin-bottom: 40px;
+  line-height: 15px;
+}
+.footer3 h4,
+p {
+  line-height: 30px;
+  opacity: 0.9;
+}
+
+/*.. content-2 ... */
+
+.entertaiment {
+  width: 75%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 20px;
+}
+.entertaiment .left-content {
+  width: 70%;
+  overflow: hidden;
+  box-shadow: 1px 4px 3px rgb(195, 184, 184);
+  /* background-color: rebeccapurple; */
+}
+.entertaiment .left-content .enter-1 {
+  width: 100%;
+  height: 40px;
+  /* background-color: blue; */
+  border-bottom: 2px solid red;
+}
+.left-content .enter-1 .content-title {
+  width: 16%;
+  height: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 98%, 75% 0);
+}
+.enter-1 .content-title p {
+  /* margin-top: 0px; */
+  color: white;
+  font-family: "Koulen";
+  margin-left: 4px;
+  font-size: 13.9px;
+  transform: translateX(-9px);
+
+  justify-content: center;
+  align-items: center;
+}
+
+.left-content .enter-2 {
+  width: 100%;
+  overflow: hidden;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 30px green;
+}
+.enter-2 .top-news-2 {
+  width: 100%;
+  height: 250px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.enter-2 .top-news-2 .top-news-3 {
+  width: 49%;
+  height: 100%;
+  /* background-color: blue; */
+}
+.top-news-3 .top-news-pic {
+  width: 100%;
+  height: 60%;
+}
+.top-news-3 .top-news-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.top-news-3 .top-news-dic {
+  width: 100%;
+  height: 40%;
+  margin-top: 0px;
+}
+.top-news-3 .top-news-dic h3 {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+  font-family: "Battambang";
+  line-height: 25px;
+}
+
+/* enternews */
+.enter-2 .enternews {
+  width: 100%;
+  height: 150px;
+  margin-top: 20px;
+  /* background-color: rgb(238, 255, 0); */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.enternews .enternews-pic {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.enternews-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.enternews .enternews-dic {
+  width: 49%;
+  height: 100%;
+  float: left;
+}
+.enternews .enternews-dic p {
+  color: rgb(0, 0, 0);
+  font-family: "Battambang";
+  margin-left: 5px;
+  font-size: 15px;
+  margin-top: 0px;
+  line-height: 24px;
+}
+.enternews .enternews-dic small {
+  font-size: 10px;
+  line-height: 20px;
+}
+.enternews-dic h6,
+hr {
+  /* line-height: 10px; */
+  margin-top: 0px;
+  font-family: "Battambang";
+}
+
+/* .........right....... */
